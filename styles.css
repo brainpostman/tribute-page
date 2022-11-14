@@ -1,0 +1,129 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    font-family: "Deus Ex Console", serif;
+    background-color: #616161;
+    margin: 0;
+}
+
+header {
+    font-size: min(1em, 5vw);
+    width: 90%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    background-color: #505050;
+    padding-top: 15px;
+    margin: 2% auto;
+    border: #FFFFFF ridge 5px;
+    border-radius: 10px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0 auto;
+}
+
+header p {
+    font-size: 1em;
+    margin: 1.5em 0;
+}
+
+nav {
+    margin: 0 5%;
+}
+
+header > nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline-start: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 10px 0;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.menu-button:hover {
+    color: #505050;
+    background-color: #c3c3c3;
+    border: #FFFFFF groove 5px;
+    border-radius: 10px;
+}
+
+.menu-button {
+    background-color: #616161;
+    margin: auto auto;
+    vertical-align: center;
+    padding: 0.5em 1.5em;
+    border: #FFFFFF ridge 5px;
+    border-radius: 10px;
+}
+
+main {
+    color: #FFFFFF;
+    background-color: #505050;
+    margin: 2%;
+    padding: 30px;
+    border: #FFFFFF ridge 5px;
+    border-radius: 10px;
+}
+
+#img-div {
+    text-align: center;
+    width: 50vw;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    border: #FFFFFF ridge 5px;
+    border-radius: 10px;
+    display: block;
+}
+
+figcaption {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: min(0.8em, 1.5vw);
+    width: 80%;
+    border-bottom: #FFFFFF ridge 5px;
+    border-left:#FFFFFF ridge 5px;
+    border-right:#FFFFFF ridge 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+figcaption:hover {
+    color: #505050;
+    background-color: #c3c3c3;
+    border-bottom: #FFFFFF groove 5px;
+    border-left:#FFFFFF groove 5px;
+    border-right:#FFFFFF groove 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
+
+
